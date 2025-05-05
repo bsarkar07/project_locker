@@ -1,0 +1,13 @@
+The monthly data used here shows the prices of the equity stocks on the
+first of every month, like,
+2005-01-01 ...
+2005-02-01 ...
+2005-03-01 ...
+etc.
+
+The returns data that I am deriving from the price data, is based over the price on
+the first of one month to the price on the first of the next month.
+For eg:
+2005-01-01 --- 100
+2005-02-01 --- 120
+Thus the return over first month, 2005-01-01 is 20%.
