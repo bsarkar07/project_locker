@@ -1,0 +1,81 @@
+html, body {
+  margin: 0; }
+
+.mycontainer {
+  background-image: linear-gradient(30deg, #a683e3 50%, #e4e9fd 50%);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 4em 0 0 0; }
+
+.list-box {
+  width: 30%;
+  margin-bottom: 10em; }
+
+.header {
+  background-color: #a683e3;
+  color: white;
+  font-family: 'Raleway';
+  text-align: center;
+  border-radius: 20px;
+  padding: 0.5em 0 0.5em 0; }
+
+.todo-form {
+  padding-top: 3em; }
+
+.list-section {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 3px 3px 20px 1px; }
+
+.list {
+  overflow-y: auto;
+  height: 25em; }
+
+.item-box {
+  border-bottom: solid 0.5px lightgray;
+  height: 4.5em;
+  padding: 1em 0 0 3em; }
+
+p.item {
+  display: inline;
+  margin-left: 1.3em;
+  font-family: 'Raleway';
+  font-size: 1.8em; }
+
+.add {
+  text-align: center;
+  padding: 1em 0 2em 0; }
+
+input[type=checkbox]:checked + .item {
+  text-decoration: line-through; }
+
+input[type=checkbox] {
+  outline: none;
+  height: 0.8em;
+  width: 1em;
+  box-shadow: 0.5px 0.5px 2px; }
+
+input[name=item] {
+  outline: none;
+  height: 3.5em;
+  border: none;
+  outline: none;
+  border-bottom: solid #a683e3;
+  font-family: 'Raleway';
+  font-size: 1.2em;
+  text-align: center; }
+
+button[type=submit] {
+  border-radius: 50%;
+  background-color: #a683e3;
+  color: white;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-size: 1.8em;
+  text-align: center;
+  width: 1.5em;
+  padding: 0 0 0.2em 0; }
+
+/*# sourceMappingURL=todo.css.map */
