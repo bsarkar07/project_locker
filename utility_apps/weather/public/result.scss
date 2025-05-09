@@ -1,0 +1,168 @@
+$purple:#c249fe;
+$violet:#ae51ff;
+$blue:#606aff;
+$dark_violet:#2A1328;
+
+.a{
+  color:white;
+}
+.a:hover{
+  color:white;
+}
+html,body{
+  margin:0;
+}
+
+// Navbar
+.my{
+  color:$dark_violet;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.head-container{
+  padding-top: 1em;
+  background-image: linear-gradient(to bottom right,$blue,$violet,$purple);
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode:hue;
+  padding-left: 2em;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+}
+.nav-content{
+  margin-left: 25em;
+}
+.weather-report{
+  color:$dark_violet;
+  font-family: 'Sansita Swashed';
+  font-size: 2.1em;
+  position: absolute;
+  left:23%;
+}
+.nav-item{
+  display: inline;
+  font-family: 'Merriweather Sans';
+  font-size:1em;
+  margin-left:3em;
+}
+.my:hover{
+  color:white;
+  font-weight: lighter;
+}
+
+// Header Content
+.head-pics{
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+}
+.head-pics .row{
+  width:50%;
+}
+.cols{
+  padding-left: 5em;
+}
+.drop{
+  height:4em;
+}
+.flash{
+  height:4em;
+}
+.head-body{
+  text-align:  center;
+  margin-top: 2em;
+  padding-bottom: 2em;
+}
+.head-header{
+  font-family: 'Raleway';
+  font-size: 3.7em;
+  color:#fff;
+  transform:scaleY(1.1);
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+.head-para{
+  @extend .head-header;
+  margin-top: 0.8em;
+  font-size:2em;
+}
+.details{
+  @extend .head-para;
+  font-size:1.4em;
+}
+.humidity{
+  margin-right:2em;
+}
+.pressure{
+  margin-left: 2em;
+}
+.humidity,.pressure{
+  display: inline-block;
+}
+.btn-custom{
+  margin-top:1em;
+  padding-left:  1.5em;
+  padding-right: 1.5em;
+  color:#fff;
+  background-color: #4c3294;
+  font-family: 'Merriweather Sans';
+}
+.btn-custom:hover{
+  background-color: transparent;
+  color:$dark_violet;
+}
+.line{
+  position: absolute;
+  width:100%;
+  overflow: hidden;
+  height:11%;
+}
+.line-1{
+  z-index:15;
+}
+.line-2{
+  opacity:0.7;
+  z-index:10;
+  margin-top: 1.4em;
+}
+.wave{
+  position: absolute;
+  left:0;
+  width:200%;
+  height:110%;
+  background-repeat: repeat no-repeat;
+  background-position: 0 bottom;
+  transform-origin: center bottom;
+}
+.wave-1{
+  background-size:50% 80px;
+}
+.wave-2{
+  background-size:50% 100px;
+}
+
+// Body background
+.picture{
+  height:15em;
+  background-image: url('pics/weather1.jpg');
+  background-size: cover;
+}
+.end{
+  text-align: center;
+  color:white;
+  padding-top: 11em;
+  height:100%;
+}
+.email{
+  margin-bottom: 0.7em;
+}
+.git-name{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.email,.git-name{
+  font-family: 'Merriweather Sans';
+  font-size: 0.9em;
+  color:#f0e1fa;
+}
